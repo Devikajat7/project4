@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    Body{
+        padding: 0;
+        margin: 0;
+    }
+    #box_1{
+        color: white;
+        background-color: black;
+        font-size: 25px;
+        height: 20vh;
+        width: 100vw;
+    }
+    #box_2{
+        position: relative;
+        top: 25px;
+        left: 40%;
+    }
+    #box_3{
+        font-size: 15px;
+        position: relative;
+        top: 32px;
+        left: 40%;
+    }
+    #box_4{
+        height: 50vh;
+        width: 100vw;
+    }
+    #image{
+        height: 10vh;
+        background-color: rgb(26,117,26);
+        color: white;
+        padding-left: 42%;
+        padding-top: 35px;
+        margin: 13px;
+    }
+    #Article{
+        height: 30vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .article1{
+        height: 11vh;
+        width: 31.5vw;
+        margin-left: 15px;
+        font-weight: bold;
+        padding-top: 10px;
+        box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(240,236,236);
+    }
+    #a{
+        background-color: rgb(221,104,26);
+    }
+    p{
+        font-weight: lighter;
+        font-size: 12px;
+    }
+    #ad{
+        font-size: 12px;
+        position: relative;
+        bottom: 15px;
+        left: 130px;
+    }
+    #last{
+        background-color: black;
+        color: white;
+        height: 6vh;
+        padding-left: 40%;
+        padding-top: 15px;
+        position: relative;
+        bottom: 5px;
+    }
+</style>
+</head>
+<body>
+    <div id="box_1">
+        <div id="box_2">Magazine Title</div>
+        <div id="box_3">Articles &nbsp; Advertisements</div>
+    </div>
+    <div id="box_4">
+        <div id="image">Cover Image</div>
+        <div id="Article">
+            <div class="article1">Article 1 <br><p>This is a brief summary of the first article</p></div>
+            <div class="article1">Article 2 <br><p>This is a brief summary of the second article</p></div>
+            <div class="article1">Article 3 <br><p>This is a brief summary of the third article</p></div>
+            <div class="article1" id="a"><p id="ad">Advertisments</p></div>
+            <div class="article1">Article 4 <br><p>This is a brief summary of the forth article</p></div>
+            <div class="article1" id="a"><p id="ad">Advertisments</p></div>
+        </div>
+    </div>
+    <div id="last">any@2024 Magazine Company</div>  
+</body>
+</html>
